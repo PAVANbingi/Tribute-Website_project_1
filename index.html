@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nadella Effect: A Tribute to Microsoft's CEO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+   
+</head>
+<body>
+<!-- cursor  -->
+    <div class="cursor"></div>
+    
+    
+    <script>
+    document.addEventListener('mousemove', function(e) {
+      var cursor = document.querySelector('.cursor');
+      cursor.style.top = e.clientY + 'px';
+      cursor.style.left = e.clientX + 'px';
+    });
+    </script>
+
+    <!--top line incresing and descring  -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const topline_scroll = document.createElement('div');
+            topline_scroll.classList.add('topline_scroll');
+            document.body.appendChild(topline_scroll);
+
+            let lastScrollTop = 0;
+
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.scrollY || window.pageYOffset;
+                const scrollHeight = document.body.scrollHeight - window.innerHeight;
+                const width = (scrollTop / scrollHeight) * 100; // Calculate width as a percentage
+
+                if (scrollTop > lastScrollTop) {
+                    // Scrolling down
+                    topline_scroll.style.width = Math.min(width, 100) + '%'; // Limit width to 100%
+                } else {
+                    // Scrolling up
+                    topline_scroll.style.width = Math.max(width, 0) + '%'; // Limit width to 0%
+                }
+
+                lastScrollTop = scrollTop;
+            });
+        });
+
+    </script>
+
+
+
+
+
+   
+    <div class="container">
+        <div class="content">
+           
+        
+            <section class="top_section">
+                <h1>Satya Narayana Nadella</h1>
+                <div class="profileIMG">
+                    <div class="profile_img"></div>
+                </div>
+            </section>
+                
+                <section class="about_section">
+                    <h2 class="respected">Indian-American business executive</h2>
+                    <table>
+                        <tr class="row1">
+                            <td class="l_column">Born</td>
+                            <td>19 August 1967 (age 56),<a href="https://en.wikipedia.org/wiki/Hyderabad"> Hyderabad</a>, India</td>
+                        </tr>
+                        <tr class="row2">
+                            <td class="l_column">Citizenship</td>
+                            <td>United States</td>
+                        </tr>
+                        <tr class="row3">
+                            <td class="l_column">Education</td>
+                            <td>
+                                <a  href="https://en.wikipedia.org/wiki/Manipal_Institute_of_Technology" target="_blank" >Manipal Institute of Technology (B.tech) </a><br>
+                                <a href="https://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Milwaukee" target="_blank">University of Wisconsin–Milwaukee (MS)</a><br>
+                               <a href="https://en.wikipedia.org/wiki/University_of_Chicago" target="_blank">University of Chicago (MBA)</a>
+                            </td>
+                        </tr>
+                        <tr class="row5">
+                            <td class="l_column">Occupation(s)</td>
+                            <td>Chairman and CEO, <a href="https://en.wikipedia.org/wiki/Microsoft"target="_blank">Microsoft</a></td>
+                        </tr>
+                        <tr class="row6">
+                            <td class="l_column">Spouse</td>
+                            <td>Anupama Nadella (m. 1992)</td>
+                        </tr>
+                        <tr class="row7">
+                            <td class="l_column">Children</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="row8">
+                            <td class="l_column">Awards</td>
+                            <td><a href="https://en.wikipedia.org/wiki/Padma_Bhushan"target="_blank">Padma Bhushan</a> (2022)</td>
+                        </tr>
+                        <tr class="row9">
+                            <td class="l_column">Website</td>
+                            <td><a href="https://news.microsoft.com/exec/satya-nadella/" target="_blank">Microsoft profile</a></td>
+                        </tr>
+                    </table>
+                </section>
+                
+                </section>
+                <section class="about_section">
+                    
+                    <p class="p1">Satya Nadella is an eminent Indian-American business executive, acknowledged for his dynamic leadership as the executive chairman and CEO of Microsoft. He was born in Hyderabad, India, on August 19, 1967, and pursued a career in technology, acquiring a bachelor's degree in electrical engineering from the Manipal Institute of Technology, a master's degree in computer science from the University of Wisconsin-Milwaukee, and an MBA from the University of Chicago Booth School of Business.</p>
+                    <br>
+                    <p class="p2">Nadella commenced his career with Microsoft in 1992 and served in various leadership roles before assuming the position of CEO in 2014. During his tenure, he spearheaded a major cultural and technological transformation at Microsoft, steering the company's focus towards cloud computing and making a considerable contribution to the development of Azure, which is now one of the world's largest cloud infrastructures. Nadella's leadership approach is distinguished by his unwavering commitment to innovation, collaboration, and continuous learning, which have propelled Microsoft towards substantial growth and success.</p>
+                </section>
+                <section class="Awards">
+                    <h2>Awards and Recognition</h2>
+                    <ul>
+                        <li class="l1">Satya Nadella, the Chief Executive Officer of Microsoft, has been the recipient of numerous accolades and distinctions throughout his distinguished career.</li>
+                        <li class="l2">In 2018, he was honored as one of the Time 100, a prestigious list of the world's most influential individuals.</li>
+                        <li class="l3">In 2019, he was recognized as the Financial Times Person of the Year and Fortune magazine's Businessperson of the Year.</li>
+                        <li class="l4">In 2020, he was bestowed with the title of Global Indian Business Icon at CNBC-TV18's India Business Leader Awards held in Mumbai.</li>
+                        <li class="l5">In 2022, the Government of India awarded him the Padma Bhushan, the third highest civilian award in India, in recognition of his outstanding contributions.</li>
+                        <li class="l6">Furthermore, in January 2024, Nadella was conferred with an honorary Ph.D. from the Georgia Institute of Technology.</li>
+                       
+                        
+                    </ul>
+
+                </section>
+                <section class="footer" >
+                    
+                    
+                        <p class="p1">🌟 By clicking on this image, you will be able to explore a collection of inspiring images featuring Satya Nadella</p> <br><br><p class="p2">
+                             Read more about Satya Narayana Nadella on <a href="https://en.wikipedia.org/wiki/Satya_Nadella" target="_blank">Wikipedia...</a></p>
+                        <a  href="https://wallpaperaccess.com/satya-nadella#google_vignette" target="_blank">
+                        <div class="image-container"></div>
+                    </a>
+                    
+
+                </section>
+                
+        </div>
+    </div>
+</body>
+</html>

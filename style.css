@@ -1,0 +1,189 @@
+ body {
+   
+    
+        /* cursor: url('cursor.1024x1024.png') 6 6 auto; */
+     
+      
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-left: 0;
+    padding: 0;
+    /* border: 15px solid #192b57;
+    border-radius: 0.5%; */
+
+}
+/* cursor actions : */
+
+body {
+    margin: 0;
+    padding: 0;
+    cursor: none; /* Hide the default cursor */
+  }
+  
+  .cursor {
+    position: fixed; /* Use fixed positioning to cover the whole viewport */
+    top: 0;
+    left: 0;
+    width: 18px; /* Set the size of the ball */
+    height: 18px; /* Set the size of the ball */
+    background-color: #6720db; /* Set the color of the ball */
+    border-radius: 50%; /* Make it round */
+    pointer-events: none; /* Ensure it doesn't interfere with mouse events on other elements */
+  }
+.topline_scroll {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 1.5%; /* Set a fixed height */
+            background-color: #6720db;
+            z-index: 1000; /* Ensure it's above other content */
+            transition: width 0.6s ease; /* Smooth transition for width */
+            width: 0; /* Start with 0 width */
+            
+        }
+        
+     /* selection hover  */
+
+   
+
+.container {
+    max-height: 100vh;
+    max-width: 100wh;
+    margin: 30 px;
+    padding: 50px;  
+}
+.top_section {
+    margin-top: 50px;
+    display: flex;
+    
+    grid-area: 10px;
+    justify-content: space-between;
+    
+    /* Allow items to wrap to the next line */
+  
+}
+
+/* his name heading */
+.top_section h1 {
+    font-size: 100px;
+   font-weight: bold;
+   /* color: #6720db; */
+   color:#FF407D;
+   
+   /* color: #233056; */
+  
+ }
+
+ /* profile image */
+.profile_img {
+
+    
+   min-height: 50%;
+   min-width: 50%;
+    width: 540px; 
+    height: 629px; 
+    overflow: hidden;
+    border-radius: 20%;   
+    background-image: url('snn.jpg');
+    background-size: cover;
+    transition: background-image 1s;
+   
+     /* Float the image to the right */
+}
+
+.profile_img:hover {
+    background-image: url("snn_1.jpg");
+}
+
+
+
+
+
+
+
+/* table tittle  */
+.respected{
+    font-size: 50px;
+  font-weight: bold;
+  
+  
+}
+
+/* table */
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px; /* Adjust the value to set the desired gap between columns */
+}
+
+.l_column{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* his detail info */
+.about_section {
+    font-size: 20px;
+    margin-top: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* awards dhee */
+.Awards h2{
+    font-size: 50px;
+  font-weight: bold;
+    
+}
+
+ul {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+li {
+    margin-bottom: 10px; /* Adjust the value to set the desired gap between list items */
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    bottom: 0;
+    right: 0;
+  
+    margin-bottom: 10px;
+    font-size: 20px;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+
+
+/* last image */
+.image-container {
+    width: 250px;
+    height: 150px;
+    background-image: url('sataya_old.webp');
+    background-size: cover;
+    transition: background-image 1s;
+    float: right; /* Float the image to the right */
+     
+    border-radius: 50%;
+    
+}
+
+.image-container:hover {
+    background-image: url("sataya_new.jpg");
+}
+
+
+

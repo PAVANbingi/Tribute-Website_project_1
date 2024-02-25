@@ -1,0 +1,194 @@
+::selection{
+    /* color: rgb(227, 14, 50); */
+    /* color:#EBF400; */
+    /* color:#F57D1F; */
+    /* color:#FF407D;  */
+    /* --color:greenyellow; */
+    /* color: rgb(255, 39, 183); */
+    color:#FC6736;
+}
+
+
+
+/* hovering all ----- */
+ 
+/* .container:hover{
+    color: #6720db;
+    transition: .5s all;
+    so the poblem is if i toched 1 every thing then it applying for everything
+} */
+.top_section h1:hover{
+    color: #6720db;
+    transition: .5s all;
+}
+.top_section h1:hover {
+    color: #6720db; /* Change text color on hover */
+    font-size: 120px; /* Increase font size on hover */
+    background-color: black; /* Change background color on hover */
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */}
+.about_section h2:hover{
+    color: greenyellow;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.8s, font-size 0.3s, background-color 0.3s, transform 0.7s; /* Add smooth transitions */
+}
+.about_section .row1:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row2:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+
+}
+
+.about_section .row3:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row4:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row5:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+.about_section .row6:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row7:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row8:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.about_section .row9:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+
+.about_section .p1:hover{
+    color: #EBF400;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+.about_section .p2:hover{
+    color: #EBF400;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.Awards h2:hover{
+    color: greenyellow;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.7s; /* Add smooth transitions */
+}
+.Awards .l1:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.Awards .l2:hover{
+    color:rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.Awards .l3:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.Awards .l4:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+
+.Awards .l5:hover{
+    color:rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+.Awards .l6:hover{
+    color: rgb(255, 39, 183);
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+
+.footer .p1:hover{
+    color: #EBF400;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+.footer .p2:hover{
+    color: greenyellow;
+    transition: .5s all;
+    transform: scale(1.05); /* Scale slightly on hover */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
